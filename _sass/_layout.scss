@@ -10,7 +10,7 @@
     position: relative;
 }
 
-.site-title {
+/**.site-title {
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -22,6 +22,18 @@
     &:visited {
         color: $grey-color-dark;
     }
+}
+*/
+
+.site-title {
+    display: inline-block;
+    width: 225px;
+    height: 125px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url("/img/logo.png") #ffffff no-repeat;
+    background-size: 225px, 125px;
 }
 
 .site-nav {
@@ -193,7 +205,6 @@
     display: block;
     font-size: 24px;
 }
-
 
 
 /**
